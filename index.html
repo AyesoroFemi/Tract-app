@@ -79,7 +79,7 @@
 
                 </div>
             </div>
-            <div class="row block-three">
+            <!-- <div class="row block-three">
                 <div class="col-sm-12 col-md-6 col-lg-6">
                     <div>
                         <img src="./img/WhatsApp Image 2020-12-07 at 19.25.18 (1).jpeg" class="img-fluid" alt="">
@@ -102,14 +102,47 @@
                     <div>
                         <img src="./img/WhatsApp Image 2020-12-07 at 19.25.19.jpeg" class="img-fluid" alt="">
                     </div>
-
-                </div>
-            </div>
+               </div>
+            </div> -->
         </div>
     </div>
+
+    <div id="app">
+       <div v-if="show">
+        <div class="container-fluid">
+            <div class="row block-three">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div>
+                        <img src="./img/WhatsApp Image 2020-12-07 at 19.25.18 (1).jpeg" class="img-fluid" alt="">
+                    </div>
+    
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div>
+                        <img src="./img/WhatsApp Image 2020-12-07 at 19.25.18.jpeg" class="img-fluid" alt="">
+                    </div>
+    
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div>
+                        <img src="./img/WhatsApp Image 2020-12-07 at 19.25.19 (1).jpeg" class="img-fluid" alt="">
+                    </div>
+    
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div>
+                        <img src="./img/WhatsApp Image 2020-12-07 at 19.25.19.jpeg" class="img-fluid" alt="">
+                    </div>
+               </div>
+            </div>
+           
+        </div>
+       </div> 
+       <button  class="btn btn-primary" @click="show=!show">Toggle tract</button>
+    </div>
+    
+    
  
-
-
         <!-- MDB -->
     <script
     type="text/javascript"
